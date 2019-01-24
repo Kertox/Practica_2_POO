@@ -6,7 +6,13 @@ public class Casella {
 	private static final int EMPTY_VALUE = 0;
 	
 	//PENDENT IMPLEMENTAR	
-
+	public Casella (int fila, int col, int value) {
+		this.fila = fila;
+		this.col = col;
+		this.value = value;
+		
+	}
+	
 	public int getFila() {
 		return fila;
 	}
