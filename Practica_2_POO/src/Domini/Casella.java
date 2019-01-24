@@ -3,7 +3,7 @@ package Domini;
 public class Casella {
 	public int fila, col;
 	public final int value;
-	private static final int emptyValue = 0;
+	private static final int EMPTY_VALUE = 0;
 	
 	//PENDENT IMPLEMENTAR	
 	public Casella (int fila, int col, int value) {
@@ -39,7 +39,7 @@ public class Casella {
 	
 	public String swapCell (Casella casella) {
 		
-		if (casella.value != emptyValue) {
+		if (casella.value != EMPTY_VALUE) {
 			return "ERROR: No espoden intercanviar dues caselles plenes.";
 		}
 		else {
