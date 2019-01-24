@@ -6,11 +6,6 @@ public class Casella {
 	private static final int EMPTY_VALUE = 0;
 	
 	//PENDENT IMPLEMENTAR	
-	public Casella (int fila, int col, int value) {
-		this.fila = fila;
-		this.col = col;
-		this.value = value;
-	}
 
 	public int getFila() {
 		return fila;
@@ -60,7 +55,7 @@ public class Casella {
 				return null;
 			}
 			else {
-				return "ERROR: Les caselles no son veïnes horitzontals o verticals.";
+				return "ERROR: Les caselles no son veÃ¯nes horitzontals o verticals.";
 			}
 		}
 	}
